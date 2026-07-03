@@ -198,6 +198,8 @@ const contentPlan = [
 
 const filters: ProjectCategory[] = ["Todos", "Desenvolvimento", "Criativo"];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState<ProjectCategory>("Todos");
 
@@ -247,7 +249,7 @@ export default function Home() {
 
       <section id="inicio" className="relative isolate min-h-[88svh] overflow-hidden pt-16 text-white">
         <Image
-          src="/assets/hero-workspace.png"
+          src={`${basePath}/assets/hero-workspace.png`}
           alt="Mesa de trabalho moderna com telas de codigo, dashboards e composicoes visuais"
           fill
           priority
