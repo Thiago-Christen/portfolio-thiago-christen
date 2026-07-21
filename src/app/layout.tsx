@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Thiago Christen | Desenvolvedor Full Stack",
+  title: "Manual de Receita Freelancer | Thiago Christen",
   description:
-    "Portfolio de Thiago Christen: desenvolvimento full stack, interfaces, automacoes, design grafico, motion design e edicao de video.",
+    "Guia operacional de canais de venda, plataformas, taxas, propostas e metas para começar a vender serviços como freelancer.",
   authors: [{ name: "Thiago Christen" }],
   keywords: [
     "Thiago Christen",
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "freelancer",
   ],
   openGraph: {
-    title: "Thiago Christen | Desenvolvedor Full Stack",
+    title: "Manual de Receita Freelancer | Thiago Christen",
     description:
-      "Desenvolvimento full stack com olhar visual para interfaces, automacoes e produtos digitais.",
+      "Canais de venda, taxas, propostas e decisões para transformar serviços freelancer em uma operação comercial.",
     type: "website",
     locale: "pt_BR",
   },

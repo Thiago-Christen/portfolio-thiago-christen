@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
-    "preview:static": "npx serve@latest out"
+    "preview:static": "npx serve@latest .next-github"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",

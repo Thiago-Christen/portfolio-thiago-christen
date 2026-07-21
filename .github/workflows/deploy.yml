@@ -1,4 +1,4 @@
-name: Deploy portfolio to GitHub Pages
+name: Deploy manual to GitHub Pages
 
 on:
   push:
@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./.next-github
 
   deploy:
     environment:
